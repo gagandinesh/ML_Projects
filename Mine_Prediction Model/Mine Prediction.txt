@@ -1,0 +1,48 @@
+1) Name of Project --- Sonar Detection for Underwater Mines and Stones
+
+2) Aim of Project is to classify which is Rock and Mines from under the water
+
+3) Workflow---
+
+   i)  Collect Dataset 
+
+   ii) Pre-Process the Data
+
+   iii) Split the Data-- Train and Test Data
+
+   iv) Selection of ML model --- In this we have chosen "Logistic Regression Model" 
+
+    v) Providing New Data for the trained Model for Prediction
+
+
+4) Why Logistic Regression Model ??
+
+  -->>
+ 
+     It is a Supervised ML Algorithm 
+
+      It works well in case of Binary classification Model 
+
+
+Result Obtained 
+
+i) On Training Data = 0.8342245989304813
+
+ii) On Test Data = 0.7619047619047619
+
+
+On using The Predictive Model we are able Distinguish Between "Rock" and "Mines" 
+
+['M']
+The object is a Mine
+
+or
+
+['R']
+The object is a Rock
+
+
+
+
+
+  
