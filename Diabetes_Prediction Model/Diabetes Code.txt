@@ -1,0 +1,49 @@
+1 )Name of the Project -- Diabetes Prediction ML Model
+
+2) Aim of the Project -- To Find out the People who are Diabetic based on the give symptoms
+
+3) Workflow --
+
+   i)  Collect Dataset ( The Dataset used contains only "Females Symptoms")
+
+   ii) Pre-Process the Data (In this We need to Standardize the data)
+
+   iii) Split the Data-- Train and Test Data
+
+   iv) Selection of ML model --- In this we have chosen "Support Vector Machine Classifier" 
+
+   v) Providing New Data for the trained Model for Prediction
+
+
+4) Why SVM is used??
+
+>>
+   SVM has a Property of Classifying the data given
+
+   It uses the Concept of Hyperplane for Classification and Prediction 
+
+   In the Above Model we can Get the result as Weather the Patient is "Diabetic" or "Non-Diabetic"
+
+
+
+5) Result Obtained (Accuracy)
+
+
+   i) On Training Data = 0.7866449511400652
+
+
+   ii) On Test Data = 0.7727272727272727
+
+
+6)  Prediction Obtained Based on Predictive Model with Input Data Entered
+
+Note -- 1 represents the Patient is diabetic  and  0 represents the patient is Not Diabetic
+
+
+     [0]
+         The patient is "Not Diabetic" Stay Healthy
+
+        Else 
+
+     [1]
+        The patient is "Diabetic" Visit the Hospital ASAP
