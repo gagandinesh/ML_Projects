@@ -1,0 +1,31 @@
+1) Name of the Project -- Used cars Price Prediction
+
+2) Aim of the Project --- Finding the best Price of Used Car based on Brand,Year,KMS Driven 
+
+3) Workflow --
+
+   i) Collect Car Dataset
+ 
+   ii) Pre-Processing of the Data
+
+   iii) Split the data into training and Test Data
+
+   iv) Selection of ML Model -- In this project we have used "Linear and Lasso Regression Model"
+
+   v) Providing New Data for the trained Model for Prediction
+
+
+4) Result Obtained
+
+ I) Linear Regression
+
+    R Squared Error :  0.8799451660493711 [On Training Data]
+
+    R Squared Error :  0.8365766715027051 [On Test Data]
+
+
+II) lasso Regression
+
+    R Squared Error :  0.8427856123435794 [On Training Data]
+
+    R Squared Error :  0.8709167941173195 [On Test Data] 
