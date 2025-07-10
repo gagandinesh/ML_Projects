@@ -1,0 +1,39 @@
+1) Name of the Project -- Heart Disease Prediction 
+
+2) Aim of the Project --- To Find Which Patient is Suffering from an heart Disease (0--> Healthy,1-->Not Healthy)
+
+3) Workflow --
+
+   i) Collect Heart Dataset  (Which Contains Several parameters)  [Dataset obtained from Kaggle]
+ 
+   ii) Pre-Processing of the Data 
+
+   iii) Split the data into training and Test Data
+
+   iv) Selection of ML Model -- In this project we have used " Logistic Regression Model "
+
+   v) Providing New Data for the trained Model for Prediction
+
+
+4) Why we Have Used Logistic Regression?
+
+--->   Because We are Gonna Get the results in Binary for (Yes/No)
+
+
+5)  Accuracy Scored Obtained.
+
+     i) Accuracy on Training data :  0.8512396694214877
+
+    ii) Accuracy on Test data :  0.819672131147541
+           
+
+5)  Model Prediction Obtained.
+
+    [0]
+        This Person has an Healthy Heart 
+
+
+    [1]
+        This person Has Heart Disease Seek for Medical Assistance
+
+
