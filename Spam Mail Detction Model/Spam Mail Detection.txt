@@ -1,0 +1,41 @@
+1) Name of the Project -- Spam Mail Detection
+
+2) Aim of the Project ---  To Classify Between the Incoming Mails are Spam Mails or Real Mails and Send them to Respective Folders
+
+3) Workflow --
+
+   i) Collect Mail Dataset
+ 
+   ii) Pre-Processing of the Data
+
+   iii) Split the data into training and Test Data
+
+   iv) Selection of ML Model -- Logistic Regression Model
+
+   v) Providing New Data for the trained Model for Prediction
+
+
+4) Why we have used Logistic regression model..?
+   
+    We have used logistic Regression Model because they help in "Binary classification" (i.e. they return 2 values (0/1) or (True/False)
+
+
+5) Model Evaluation 
+
+
+ I) ON Training Data
+
+    Accuracy on Training Data :  0.9676912721561588
+
+II) ON Test Data
+ 
+    Accuracy on Test Data :  0.9668161434977578
+
+
+6) Final Prediction of Model on New Data/ Message  [if [0]--> Ham Mail , [1] --> Spam Mail ]
+
+     [1]
+     This is a Ham Mail Visit Inbox
+   
+     [0]
+    This is a Spam Mail Visit Spam Folder
