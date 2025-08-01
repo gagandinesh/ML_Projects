@@ -1,0 +1,45 @@
+1) Name of the Project -- Movie Recommendation System (Content Based Recommendation System)
+ 
+2) Aim of the Project --- To Recommend an Movie for an user based on the user interest 
+
+3) Workflow --
+
+   i) Collect Movie Dataset
+ 
+   ii) Pre-Processing of the Data ( finding of Null values and cleaning of Data
+   
+   iii) Feature Extraction ( Since the Dataset is in Textual data we need to Convert them into Numerical Vectors)
+
+   iv) Cosine Similarity ( we use this to Find the Similar  type of Movie Entered by the user)  
+
+ 
+4)  why we are not using any ML Model here??
+
+    we are using Cosine Similarity Algorithm 
+    The "cosine similarity algorithm" is a computational method used to determine the degree of similarity between two vectors by evaluating the cosine of the angle between them.
+    
+
+
+4) Result Obtained
+
+
+Enter The Movie Name : batman ( user Need to Enter) 
+
+( Based On user Interest and Similarities Movies are Recommended)
+
+
+Movies to Watch : 
+
+1 . Batman
+2 . Batman Returns
+3 . Batman & Robin
+4 . The Dark Knight Rises
+5 . Batman Begins
+6 . The Dark Knight
+7 . A History of Violence
+8 . Superman
+9 . Beetlejuice
+10 . Bedazzled
+
+
+
